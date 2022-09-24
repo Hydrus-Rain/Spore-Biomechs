@@ -1,0 +1,40 @@
+type: flying
+health: 115
+hitSize: 20
+speed: 2.375
+drag: 0.05
+range: 78
+flying: true
+engineOffset: 6.5
+engineSize: 3
+rotateSpeed: 2
+baseRotateSpeed: 0.6
+weapons: [{
+  name: Roachgun
+  x: 0
+  y: 0
+  reload: 55
+  shoot: {
+    shots: 6
+  }
+  inaccuracy: 1
+  mirror: false
+  alternate: true
+  rotate: true
+  ejectEffect: none
+  velocityRnd: 0.2
+  shootCone: 60
+  shootSound: missile
+  bullet: {
+    type: BasicBulletType
+    speed: 10
+    damage: 30
+    backColor: 8FFE09
+    frontColor: 8FFE09
+    width: 15
+    height: 21
+    shootEffect: shootBig
+    sprite: sporepod-Smolbullet
+  }
+  shootSound: shootbig
+}]

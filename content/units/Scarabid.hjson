@@ -1,0 +1,34 @@
+type: legs
+speed: 1
+health: 845
+range: 95
+weapons: [{
+  name: ScarabidCannon
+  x: 0
+  y: -8
+  reload: 69
+  mirror: false
+  shootCone: 100
+  shake: 1
+  inaccuracy: 2
+  alternate: true
+  ejectEffect: none
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 5
+    damage: 30
+    sprite: shell
+    hitEffect: blastExplosion
+    knockback: 1
+    lifetime: 110
+    width: 14
+    height: 14
+    collides: true
+    collidesTiles: true
+    splashDamageRadius: 35
+    splashDamage: 10
+    backColor: 301934
+    frontColor: 8FFE09
+  }
+  shootSound: artillery
+}]
