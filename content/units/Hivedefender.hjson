@@ -1,0 +1,32 @@
+type: flying
+health: 175
+hitSize: 10
+speed: 2.45
+drag: 0.09
+engineOffset: 4
+engineSize: 2
+mineSpeed: 2
+buildSpeed: 1
+mineTier: 3
+range: 75
+flying: true
+rotateSpeed: 2
+baseRotateSpeed: 0.7
+weapons: [
+{
+  name: Hiverygun
+  x: -7
+  y: 2
+  reload: 20
+  shoot: {
+    shots: 2
+  }
+    bullet: {
+  damage: 15
+  speed: 5
+  backColor: A865C9
+  lifetime: 50
+  frontColor: A865C9
+  }
+}
+]

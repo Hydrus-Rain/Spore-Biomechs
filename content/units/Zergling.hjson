@@ -1,0 +1,22 @@
+type: mech
+speed: 1.1425
+flying: false
+health: 300
+range: 150
+weapons: [
+  {
+  name: claws
+  x: 4
+  y: 2
+  reload: 15
+  ejectEffect: casing1
+  bullet: {
+    lifetime: 75
+    speed: 3
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 10
+    width: 9
+    height: 12
+  }}
+]

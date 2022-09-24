@@ -1,0 +1,30 @@
+type: flying
+flying: true
+speed: 1.75
+drag: 0.3
+canDrown: false
+hitSize: 7
+targetAir: true
+health: 465
+weapons: [{
+name: Rizomorphgun
+x: 0
+y: 0
+reload: 5
+alternate: true
+ejectEffect: none
+velocityRnd: 1
+inaccuracy: 0
+ignoreRotation: true
+bullet: {
+  type: BombBulletType
+  damage: 100
+  splashDamage: 75
+  splashDamageRadius: 10
+  width: 0
+  height: 0
+  lifetime: 75
+  hitEffect: sapExplosion
+}
+shootSound: shootBig
+}]

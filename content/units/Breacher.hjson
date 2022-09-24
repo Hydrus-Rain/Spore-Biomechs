@@ -1,0 +1,107 @@
+type: mech
+drag: 0.2
+speed: 0.5
+hitSize: 18
+health: 7450
+armor: 6
+buildSpeed: 1
+rotateSpeed: 2.7
+weapons: [
+{
+  name: BreacherMissle
+  x: 11
+  y: -2
+  shootY: 7
+  reload: 30
+  shake: 4
+  rotateSpeed: 2
+  ejectEffect: casing1
+  shootSound: shootBig
+  rotate: true
+  recoil: 3
+  shoot: {
+    type: ShootSpread
+    shots: 2
+    spread: 17
+  }
+  bullet: {
+    type: ShrapnelBulletType
+    length: 90
+    damage: 400
+    width: 25
+    serrationLenScl: 7
+    serrationSpaceOffset: 60
+    serrationFadeOffset: 0
+    serrations: 10
+    serrationWidth: 6
+    fromColor: 301934
+    toColor: 301934
+    shootEffect: sparkShoot
+    smokeEffect: sparkShoot
+  }
+}
+{
+  name: Breachergun
+  x: 0
+  y: -10
+  shootY: 22
+  mirror: false
+  reload: 10
+  shake: 10
+  recoil: 0
+  rotateSpeed: 1
+  ejectEffect: casing4
+  shootSound: shootBig
+  rotate: true
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 3
+    damage: 10
+    hitEffect: sapExplosion
+    knockback: 0.8
+    lifetime: 80
+    width: 25
+    height: 25
+    collides: true
+    collidesTiles: true
+    ammoMultiplier: 4
+    splashDamageRadius: 100
+    splashDamage: 250
+    backColor: 301934
+    frontColor: 301934
+    lightningColor: ffffff
+    lightning: 5
+    lightningLength: 20
+    smokeEffect: shootBigSmoke2
+    hitShake: 10
+    status: sapped
+    statusDuration: 10
+    fragLifeMin: 0.3
+    fragBullets: 12
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2.3
+      damage: 90
+      homingPower: 1
+      homingRange: 40
+      hitEffect: sapExplosion
+      knockback: 0.8
+      lifetime: 90
+      width: 20
+      height: 20
+      collidesTiles: false
+      splashDamageRadius: 90
+      splashDamage: 165
+      backColor: 301934
+      frontColor: 301934
+      lightningColor: ffffff
+      lightning: 2
+      lightningLength: 7
+      smokeEffect: shootBigSmoke2
+      hitShake: 5
+      status: sapped
+      statusDuration: 600
+    }
+  }
+}
+]

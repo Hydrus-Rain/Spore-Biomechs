@@ -1,0 +1,33 @@
+type: flying
+health: 400
+hitSize: 17
+speed: 3
+drag: 0.09
+engineOffset: 6
+engineSize: 2
+mineSpeed: 3
+buildSpeed: 2
+mineTier: 4
+range: 150
+flying: true
+rotateSpeed: 2
+baseRotateSpeed: 0.6
+weapons: [
+{
+  name: Hive-Sentinel-gun
+  x: -7
+  y: 2
+  reload: 15
+  shoot: {
+    shots: 2
+  }
+  bullet: standardHoming
+  bullet: {
+  damage: 30
+  lifetime: 50
+  speed: 5
+  backColor: A865C9
+  frontColor: A865C9
+  }
+}
+]
