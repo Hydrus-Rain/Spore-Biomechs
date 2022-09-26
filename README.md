@@ -1,4 +1,4 @@
-# Spore Biomechs
+# Spore Biomechs ඞ
 A mod inspired by Starcraft. plan to add Biomechanical units into Mindustry.
 
 Sprite made by Hydroabyssal#0890
