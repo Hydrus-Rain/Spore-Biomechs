@@ -9,7 +9,7 @@ silicon/12
 biomass/5
 graphite/8
 ]}}
-outputItem: biosil/1
+outputItem: BioSil/1
 requirements: [
 silicon/325
 graphite/480
