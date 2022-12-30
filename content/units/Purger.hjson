@@ -1,4 +1,5 @@
-type: mech
+type: legs
+legCount: 4
 name: Purger
 description: "A purge machine that burn enemys to their death."
 speed: 1.45
@@ -15,19 +16,32 @@ weapons: [{
   alternate: true
   recoil: 1
   ejectEffect: none
-  bullet: {
-    type: BulletType
-    speed: 4
-    damage: 60
-    hitSize: 7
-    lifetime: 18
-    pierce: true
-    collidesAir: false
-    status: burning
-    statusDuration: 600
-    shootEffect: shootPyraFlame
-    hitEffect: hitFlameSmall
-    despawnEffect: none 
-    hittable: false
-  }
+bullet: {
+            type: MissileBulletType
+            damage: 45
+            makeFire: true
+            puddles: 1
+            puddleRange: 1
+            puddleAmount: 5
+            puddleLiquid: slag
+           }
 }]
+abilities: [
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 73FFAEFF
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+        }
+        range: 1
+        amount: 15
+        reload: 150
+            }
+    ]

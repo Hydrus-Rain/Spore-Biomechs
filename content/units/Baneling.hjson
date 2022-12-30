@@ -1,7 +1,7 @@
-type: mech
+type: legs
+legCount: 4
 health: 450
 speed: 1.5
-hitSize: 15
 range: 0
 weapons: [{
   name: Baneling
@@ -21,6 +21,28 @@ weapons: [{
     hittable: false
     collidesAir: true
     instantDisappear: true
+    status: dissolving
+    statusDuration: 500
   }
   shootSound: explosion
 }]
+abilities: [
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 73FFAEFF
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+        }
+        range: 1
+        amount: 15
+        reload: 150
+            }
+    ]
+

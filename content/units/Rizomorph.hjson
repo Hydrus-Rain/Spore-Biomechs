@@ -5,7 +5,8 @@ drag: 0.3
 canDrown: false
 hitSize: 7
 targetAir: true
-health: 465
+
+health: 745
 weapons: [{
 name: Rizomorphgun
 x: 0
@@ -28,3 +29,22 @@ bullet: {
 }
 shootSound: shootBig
 }]
+    abilities: [
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 73FFAEFF
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+        }
+        range: 1
+        amount: 50
+        reload: 150
+            }
+    ]

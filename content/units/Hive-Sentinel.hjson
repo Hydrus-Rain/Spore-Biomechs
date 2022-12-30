@@ -12,15 +12,34 @@ range: 150
 flying: true
 rotateSpeed: 2
 baseRotateSpeed: 0.6
+abilities: [
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 73FFAEFF
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+        }
+        range: 1
+        amount: 15
+        reload: 150
+            }
+    ]
 weapons: [
 {
   name: Hive-Sentinel-gun
   x: -7
   y: 2
   reload: 15
-  shoot: {
-    shots: 2
-  }
+  collides: true
+  collidesTiles: true
+  shots: 2
   bullet: standardHoming
   bullet: {
   damage: 30
@@ -31,3 +50,4 @@ weapons: [
   }
 }
 ]
+

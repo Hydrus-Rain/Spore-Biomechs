@@ -1,5 +1,6 @@
-type: mech
-hitSize: 5
+type: legs
+legCount: 4
+size: 5
 name: Lobber
 description: "A small swarmy units created by behomoth to annoy enemies and drain their ammo [#f0]Don't underestimate those little guys."
 speed: 1
@@ -11,6 +12,7 @@ weapons: [{
   y: -5
   reload: 45
   mirror: false
+  shots: 1
   shootCone: 100
   shake: 0
   inaccuracy: 2
@@ -29,8 +31,27 @@ weapons: [{
     collidesTiles: true
     splashDamageRadius: 10
     splashDamage: 10
-    backColor: A865C9
-    frontColor: A865C9
+    backColor: 301934
+    frontColor: 301934
   }
   shootSound: artillery
 }]
+    abilities: [
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 73FFAEFF
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+        }
+        range: 1
+        amount: 5
+        reload: 50
+            }
+    ]
