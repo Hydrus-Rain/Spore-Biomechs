@@ -1,6 +1,7 @@
 type: OreBlock
-itemDrop: Crystal
-playerUnmineable: true
 oreDefault: true
+oreScale: 22.45
+oreThreshold: 0.87
+itemDrop: Crystal
 variants: 3
 name: Crystal ore
