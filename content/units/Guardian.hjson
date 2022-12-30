@@ -16,6 +16,7 @@ weapons: [{
   inaccuracy: 2
   alternate: true
   ejectEffect: none
+  under: true
   bullet: {
     type: ArtilleryBulletType
     speed: 5

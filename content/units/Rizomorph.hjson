@@ -6,7 +6,7 @@ canDrown: false
 hitSize: 7
 targetAir: true
 
-health: 745
+health: 1445
 weapons: [{
 name: Rizomorphgun
 x: 0
@@ -19,9 +19,9 @@ inaccuracy: 0
 ignoreRotation: true
 bullet: {
   type: BombBulletType
-  damage: 100
-  splashDamage: 75
-  splashDamageRadius: 10
+  damage: 0
+  splashDamage: 100
+  splashDamageRadius: 32
   width: 0
   height: 0
   lifetime: 75
@@ -39,12 +39,12 @@ shootSound: shootBig
         sizeTo": 5
         strokeFrom: 2
         strokeTo: 0
-        lightColor: 73FFAEFF
-        colorFrom: 73FFAEFF
+        lightColor: 57D993FF
+        colorFrom: 57D993FF
         colorTo: 57D993FF
         }
         range: 1
-        amount: 50
-        reload: 150
+        amount: 65
+        reload: 135
             }
     ]
