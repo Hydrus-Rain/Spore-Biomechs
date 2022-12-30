@@ -3,7 +3,7 @@ size: 4
 consumes: {
   power: 8.3333333,
     items: [
-    spore/5
+    spore-pod/5
     ]
     liquids: [
     water/0.25
