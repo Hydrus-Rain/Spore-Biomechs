@@ -1,30 +1,41 @@
+type: legs
 health: 65000
 armor: 13
-weapon: [{
-  name: Basliskgun
-  x: 0
-  y: 0
-  reload: 165
-  mirror: false
+speed: 1.5
+weapons: [
+{
+  name: placeholder
+  x: -7
+  y: 2
+  reload: 140
   shots: 1
-  shootCone: 100
-  shake: 0
-  ejectEffect: none
-  bullet: {
-    type: ArtilleryBulletType
-    speed: 5
-    sprite: shell
-    hitEffect: blastExplosion
-    knockback: 1
-    lifetime: 53
-    width: 14
-    height: 14
-    collides: true
-    collidesTiles: true
-    splashDamageRadius: 21
+  bullet: standardHoming
+    bullet: {
+    splashDamageRadius: 25
     splashDamage: 1000
-    backColor: 301934
-    frontColor: 301934
+  speed: 7
+  backColor: A865C9
+  lifetime: 50
+  frontColor: A865C9
   }
-  shootSound: artillery
-}]
+}
+]
+    abilities: [
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 73FFAEFF
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+        }
+        range: 1
+        amount: 55
+        reload: 150
+            }
+    ]
