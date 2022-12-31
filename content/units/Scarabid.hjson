@@ -3,6 +3,7 @@ legCount: 4
 speed: 1
 health: 875
 range: 100
+targetAir: false
 weapons: [{
   name: ScarabidCannon
   x: 0

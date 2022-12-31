@@ -1,0 +1,30 @@
+health: 65000
+armor: 13
+weapon: [{
+  name: Basliskgun
+  x: 0
+  y: 0
+  reload: 165
+  mirror: false
+  shots: 1
+  shootCone: 100
+  shake: 0
+  ejectEffect: none
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 5
+    sprite: shell
+    hitEffect: blastExplosion
+    knockback: 1
+    lifetime: 53
+    width: 14
+    height: 14
+    collides: true
+    collidesTiles: true
+    splashDamageRadius: 21
+    splashDamage: 1000
+    backColor: 301934
+    frontColor: 301934
+  }
+  shootSound: artillery
+}]
