@@ -5,14 +5,17 @@ speed: 1.5
 weapons: [
 {
   name: placeholder
-  x: -7
-  y: 2
+  x: 0
+  y: 0
   reload: 140
   shots: 1
   bullet: standardHoming
     bullet: {
+    damage: 1000
     splashDamageRadius: 25
     splashDamage: 1000
+    status: dissolving
+    statusDuration: 312.5
   speed: 7
   backColor: A865C9
   lifetime: 50
@@ -35,7 +38,7 @@ weapons: [
         colorTo: 57D993FF
         }
         range: 1
-        amount: 55
-        reload: 150
+        amount: 500
+        reload: 85
             }
     ]
