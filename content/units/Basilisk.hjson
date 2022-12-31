@@ -9,17 +9,17 @@ weapons: [
   y: 0
   reload: 140
   shots: 1
-  bullet: standardHoming
+  bullet: BasicBulletType
     bullet: {
     damage: 1000
     splashDamageRadius: 25
     splashDamage: 1000
     status: dissolving
     statusDuration: 312.5
-    height: 20
-    width: 20
-     backColor: 8FFE09
-    frontColor: 8FFE09
+    height: 50
+    width: 50
+    backColor: #8ffe09
+    frontColor: #8ffe09
     speed: 7
   backColor: A865C9
   lifetime: 50
