@@ -7,23 +7,23 @@ weapons: [
   name: placeholder
   x: 0
   y: 0
-  reload: 140
+  reload: 300
   shots: 1
   bullet: BasicBulletType
     bullet: {
     damage: 1000
-    splashDamageRadius: 25
+    splashDamageRadius: 225
     splashDamage: 1000
     status: dissolving
     statusDuration: 312.5
     height: 50
     width: 50
-    backColor: #8ffe09
-    frontColor: #8ffe09
+    backColor: 8ffe09
+    frontColor: 8ffe09
     speed: 7
-  backColor: A865C9
-  lifetime: 50
-  frontColor: A865C9
+  backColor: 8ffe09
+  lifetime: 150
+  frontColor: 8ffe09
   }
 }
 ]
