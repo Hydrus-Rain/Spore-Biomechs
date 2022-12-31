@@ -1,18 +1,18 @@
 type: legs
 health: 65000
 armor: 13
-speed: 1.5
+speed: 0.55
 weapons: [
 {
   name: placeholder
   x: 0
   y: 0
-  reload: 300
+  reload: 450
   shots: 1
   bullet: BasicBulletType
     bullet: {
     damage: 1000
-    splashDamageRadius: 225
+    splashDamageRadius: 215
     splashDamage: 1000
     status: dissolving
     statusDuration: 312.5
@@ -22,7 +22,7 @@ weapons: [
     frontColor: 8ffe09
     speed: 7
   backColor: 8ffe09
-  lifetime: 150
+  lifetime: 60
   frontColor: 8ffe09
   }
 }
