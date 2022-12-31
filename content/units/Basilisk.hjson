@@ -16,7 +16,11 @@ weapons: [
     splashDamage: 1000
     status: dissolving
     statusDuration: 312.5
-  speed: 7
+    height: 20
+    width: 20
+     backColor: 8FFE09
+    frontColor: 8FFE09
+    speed: 7
   backColor: A865C9
   lifetime: 50
   frontColor: A865C9
