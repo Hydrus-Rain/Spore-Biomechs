@@ -1,0 +1,35 @@
+Type: UnitAssembler
+health: 2500
+size: 6
+plans: [
+  {
+  unit: Basilisk
+  requirements: [
+    sporepod-Zergling/15
+    sporepod-Roach/5
+    sporepod-Behomoth/1
+  ]
+  time: 4500
+  }
+    {
+  unit: Gorgon
+  requirements: [
+    Vela/1
+    sporepod-Roach/5
+    sporepod-Zergling/10
+  ]
+  time: 4500
+  }
+]
+consumes: {
+power: 5
+}
+category: units
+research: exponential-reconstructor
+researchCostMultiplier: 10
+requirements: [
+  silicon/3250
+  Nanitealloy/1000
+  titanium/4500
+  biomass/4500
+]
