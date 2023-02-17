@@ -3,8 +3,8 @@ health: 400
 hitSize: 17
 speed: 3
 drag: 0.09
-engineOffset: 6
-engineSize: 2
+engineOffset: 12
+engineSize: 4
 mineSpeed: 3
 buildSpeed: 2
 mineTier: 4
@@ -36,6 +36,8 @@ weapons: [
   name: Hive-Sentinel-gun
   x: -7
   y: 2
+  top: false
+  layerOffset: -1
   reload: 15
   collides: true
   collidesTiles: true

@@ -1,6 +1,8 @@
 type: legs
 health: 8000
 speed: 1
+hitSize: 27
+legLength: 25
 range: 150
 immunities: [
 		burning
@@ -9,7 +11,7 @@ weapons: [
 {
   name: Gorgoncannon
   x: 0
-  y: 0
+  y: 5
   mirror: false
   top: false
   shake: 4
@@ -22,7 +24,7 @@ weapons: [
   continuous: true
   cooldownTime: 200
   ShootPattern: {
-  firstShotDelay: 200
+  firstShotDelay: greenLaserChargeSmall
   }
   bullet: {
     type: ContinuousLaserBulletType
@@ -41,9 +43,9 @@ weapons: [
     healPercent: 2
     collidesTeam: true
     colors: [
-      73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
+      A865C9, A865C9, A865C9, ffffff
     ]
     status: slow
-    statusDuration: 69
+    statusDuration: 120
   }
  }]
