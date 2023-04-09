@@ -9,9 +9,10 @@ surge-alloy/750
 silicon/450
 ]
 ammoTypes: {
-Nanitealloy: {
+biomass: {
     type: PointBulletType
     shootEffect: instShoot
+    colors: A865C9
     hitEffect: instHit
     smokeEffect: smokeCloud
     trailEffect: instTrail
@@ -19,6 +20,7 @@ Nanitealloy: {
     trailSpacing: 20
     damage: 2000
     tileDamageMultiplier: 0.6
+    buildingDamageMultiplier: 0.25
     speed: 500
     shake: 4
     ammoMultiplier: 1.5
@@ -35,9 +37,13 @@ size: 4
 shootCone: 2
 shootSound: shootBig
 health: 3600
-consumes: {
-  power: 10
-  }
 category: turret
 research: foreshadow
+coolantMultiplier: 1.05
 researchCostMultiplier: 10
+consumes: {
+  power: 7.5
+  coolant: {
+    amount: 0.5
+  }
+} 
