@@ -12,9 +12,6 @@ This is the main version before hydro make a new one because I'm too lazy to mak
 and no I won't fork this
 
 # To do list
-- Add name and desc to bundle
-- Blaming hydro 24/7
-- Nerf and buff some random shit
-- Rebalance shit
+- pretend that you didn't see the previous edit
 
 
