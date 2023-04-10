@@ -1,9 +1,10 @@
+//Can hit ground unit as of now, will try to fix later
 type: ItemTurret
 targetAir: true
 targetGround: false
+collidesGround: false
 shootTypes: {
 type: BasicBulletType
-collidesGround: false
 }
 health: 750
 reload: 15
