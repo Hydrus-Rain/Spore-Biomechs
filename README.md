@@ -1,17 +1,11 @@
-# Spore-Assimilator
-A mod inspired by Starcraft. plan to add zerg units into Mindustry.
+# Spore Biomechs ඞ
+A mod inspired by Starcraft. plan to add Biomechanical units into Mindustry.
 
-Sprite made by Hydrobrass
+Sprite made by Hydroabyssal#0890
 
-Spaghetti code made by Water molecules#8835 and Dryehm_#8501
-thanks to bluewolf for porting and fixing some code
+Spaghetti code made by Bri'ish ball#9772 and Dryehm_#8501
 
-# THIS MOD ONLY PLAYABLE ON V7
-# Mod lore (real)
-This is the main version before hydro make a new one because I'm too lazy to make shit
-and no I won't fork this
+BIG thanks to bluewolf for the assist and porting
 
-# To do list
-- pretend that you didn't see the previous edit
 
 
