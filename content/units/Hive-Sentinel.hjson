@@ -34,19 +34,27 @@ abilities: [
 weapons: [
 {
   name: Hive-Sentinel-gun
-  x: -7
-  y: 2
+  x: -9
+  shootx: -15
+  y: 5
   top: false
   layerOffset: -1
-  reload: 15
+  reload: 25
   collides: true
   collidesTiles: true
   shots: 2
+  shoot:{
+    type: ShootPattern
+    shots: 4
+    shotDelay: 5
+  }
 
   bullet: standardHoming
   bullet: {
   damage: 30
   lifetime: 50
+  width: 10
+  height: 15
   speed: 5
   backColor: A865C9
   frontColor: A865C9

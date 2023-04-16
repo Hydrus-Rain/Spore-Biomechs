@@ -38,12 +38,19 @@ weapons: [
   layerOffset: -1
   x: -7
   y: 2
-  reload: 20
+  reload: 30
+  shoot: {
+  type: ShootPattern
   shots: 2
+  shotDelay: 3
+  }
+
   
   bullet: standardHoming
     bullet: {
   damage: 15
+  width: 6
+  height: 11
   speed: 5
   backColor: A865C9
   lifetime: 50
