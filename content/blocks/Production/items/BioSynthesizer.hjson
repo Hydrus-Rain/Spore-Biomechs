@@ -17,8 +17,8 @@ graphite/480
 biomass/350
 ]
 category: crafting
-category: crafting
+craftTime: 17
 research:{
   parent: sporepod-Naniteinfuser
-  researchCostMultiplier: 20
+  researchCostMultiplier: 10
 }

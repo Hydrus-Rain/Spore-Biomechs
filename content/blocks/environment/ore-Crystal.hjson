@@ -1,7 +1,7 @@
 type: OreBlock
 oreDefault: true
 variants: 3
-oreScale: 5
-oreThreshold: 3
+oreScale: 24.71
+oreThreshold: 0.81
 itemDrop: Crystal
-hardness: 2
+

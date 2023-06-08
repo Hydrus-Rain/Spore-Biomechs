@@ -11,7 +11,7 @@ weapons: [
   x: 11
   y: -2
   shootY: 7
-  reload: 30
+  reload: 75
   shake: 2
   rotateSpeed: 2
   ejectEffect: casing1
@@ -23,13 +23,13 @@ weapons: [
   bullet: {
     type: ShrapnelBulletType
     length: 60
-    damage: 150
+    damage: 250
     width: 20
     serrationLenScl: 7
-    serrationSpaceOffset: 60
+    serrationSpaceOffset: 45
     serrationFadeOffset: 0
-    serrations: 10
-    serrationWidth: 6
+    serrations: 6
+    serrationWidth: 5
     fromColor: 301934
     toColor: 301934
     shootEffect: sparkShoot
@@ -40,31 +40,31 @@ weapons: [
   name: Breachergun
   x: 0
   y: -10
-  shootY: 22
   mirror: false
-  reload: 10
-  recoil: 0
+  reload: 100
+  recoil: 5
   rotateSpeed: 1
   shootSound: shoot
   rotate: true
   bullet: {
     type: ArtilleryBulletType
-    speed: 3
-    damage: 45
+    speed: 2.5
+    damage: 75
     knockback: 0.8
-    lifetime: 80
-    width: 25
-    height: 25
+    lifetime: 100
+    width: 15
+    height: 30
     collides: true
     collidesTiles: true
-    ammoMultiplier: 4
-    splashDamageRadius: 75
-    splashDamage: 45
-    backColor: 301934
-    frontColor: 301934
+    splashDamageRadius: 25
+    splashDamage: 125
+    backColor: 8FFE09
+    frontColor: 8FFE09
     smokeEffect: shootBigSmoke2
     status: slow
     statusDuration: 100
+    homingPower: 0.1
+    homingRange: 240
     }
   }
 ]
