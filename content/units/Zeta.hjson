@@ -1,0 +1,39 @@
+type: tether
+outlineColor: 303a45
+health: 145
+hitSize: 11
+speed: 2.375
+isEnemy: false
+hidden: true
+drag: 0.05
+flying: true
+engineOffset: 7
+engineSize: 4
+rotateSpeed: 2
+baseRotateSpeed: 0.6
+defaultController: AssemblerAI
+bounded: false
+useUnitCap: false
+logicControllable: false
+playerControllable: false
+allowedInPayloads: false;
+createWreck: false
+abilities: [
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 73FFAEFF
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+        }
+        range: 1
+        amount: 10
+        reload: 95
+            }
+    ]

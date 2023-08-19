@@ -1,18 +1,25 @@
+type: AttributeCrafter
+attribute: spores
 health: 745
 itemCapacity: 25
-type: GenericCrafter
 size: 3
+minEfficiency: 1
+boostScale: 1.25
+baseEfficiency: 1
+displayEfficiency: true
 consumes: {
-power: 33.3333333333
-}
+power: 33.33333
+items: [
+Crystal/5
+]}
 outputItem: spore-pod/5
 requirements: [
 silicon/325
 graphite/480
 thorium/250
 ]
-category: crafting
+category: production
 research:{
   parent: spore-press
-  researchCostMultiplier: 10
+  researchCostMultiplier: 2.5
 }

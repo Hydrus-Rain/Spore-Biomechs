@@ -1,6 +1,7 @@
 type: flying
-health: 115
-hitSize: 25
+outlineColor: 303a45
+health: 145
+hitSize: 10
 speed: 2.375
 drag: 0.05
 range: 80

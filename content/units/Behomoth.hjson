@@ -1,6 +1,8 @@
 type: legs
-hitSize: 30
+outlineColor: 303a45
+hitSize: 44
 speed: 0.75
+outlineColor: 303a45
 health: 10000
 legLength: 30
 legExtension: -15
@@ -21,7 +23,7 @@ weapons: [
   inaccuracy: 1
   ejectEffect: none
   bullet: {
-    type: ArtilleryBulletType
+    type: BasicBulletType
     speed: 4
     damage: 195
     sprite: shell
@@ -29,8 +31,8 @@ weapons: [
     lifetime: 100
     width: 14
     height: 14
-    backColor: A865C9
-    frontColor: A865C9
+    backColor: 8B73C7
+    frontColor: 8B73C7
     }
   shootSound: artillery
 }
@@ -41,7 +43,7 @@ weapons: [
   y: -23
   mirror: true
   bullet: {
-  type: ArtilleryBulletType
+  type: BasicBulletType
       speed: 5
       damage: 145
       homingPower: 2

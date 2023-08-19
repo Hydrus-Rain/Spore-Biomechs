@@ -6,12 +6,10 @@ unitType: Hive-Sentinel
 unitCapModifier: 40
 requirements: [
   biomass/4510
-  lead/7440
-  copper/7440
   silicon/1250
   thorium/850
   Nanitealloy/1000
 ] 
 category: effect
 research: core-nucleus
-researchCostMultiplier: 1
+researchCostMultiplier: 0.25

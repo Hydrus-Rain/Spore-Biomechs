@@ -1,23 +1,28 @@
-type: legs
+type: flying
 outlineColor: 303a45
-health: 8000
-speed: 1
-hitSize: 27
-legLength: 25
-range: 150
+health: 625
+speed: 1.75
+drag: 0.1
+engineOffset: 12
+engineSize: 4
+mineSpeed: 3.5
+buildSpeed: 2.5
+mineTier: 6
+flying: true
+hitSize: 17
+range: 75
 immunities: [
 		burning
 		]
 weapons: [
 {
-  name: Gorgoncannon
+  name: phagelaser
   x: 0
-  y: 5
+  y: 0
   mirror: false
   top: false
-  shake: 4
   shootY: 8
-  reload: 160
+  reload: 125
   recoil: 0
   chargeSound: lasercharge2
   shootSound: beam
@@ -27,12 +32,13 @@ weapons: [
   }
   bullet: {
     type: ContinuousLaserBulletType
-    damage: 45
-    length: 125
+    damage: 20
+    length: 75
+    width: 2
+    height: 50
     hitEffect: hitMeltHeal
-    drawSize: 125
+    drawSize: 100
     lifetime: 125
-    shake: 1
     despawnEffect: smokeCloud
     smokeEffect: none
     incendChance: 0.15
@@ -41,13 +47,14 @@ weapons: [
     healPercent: 2
     collidesTeam: true
     colors: [
-      A865C9, A865C9, A865C9, ffffff
+      8B73C7, A865C9, A865C9, ffffff
     ]
     status: slow
     statusDuration: 120
+    buildingDamageMultiplier: 0.15
   }
  }]
-      abilities: [
+     abilities: [
         {
         type: mindustry.entities.abilities.RepairFieldAbility
         healEffect: {

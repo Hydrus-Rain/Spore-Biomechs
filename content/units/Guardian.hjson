@@ -1,5 +1,7 @@
 type: flying
+outlineColor: 303a45
 speed: 1
+hitSize: 18
 targetAir: false
 drag: 0.01
 flying: true

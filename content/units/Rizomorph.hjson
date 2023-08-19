@@ -1,11 +1,12 @@
 type: flying
+outlineColor: 303a45
 flying: true
 speed: 1.75
 drag: 0.3
 engineOffset: 12
 faceTarget: false
 engineSize: 5
-hitSize: 7
+hitSize: 15
 targetAir: false
 circleTarget: true
 
@@ -14,13 +15,18 @@ weapons: [{
 name: Rizomorphgun
 x: 0
 y: 5
-reload: 5
+reload: 50
 alternate: true
 ejectEffect: none
 shootEffect: none
 velocityRnd: 1
 inaccuracy: 0
 ignoreRotation: true
+  shoot:
+    {
+    type: shootPattern
+    shots: 3
+    }
 bullet: {
   type: BombBulletType
   damage: 0

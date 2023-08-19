@@ -26,10 +26,8 @@ ammoTypes: {
     backColor: 301934
     fragBullet: null
   }
-} 
+}
 requirements: [
-copper/250
-lead/250
 silicon/75
 titanium/150
 Nanitealloy/150

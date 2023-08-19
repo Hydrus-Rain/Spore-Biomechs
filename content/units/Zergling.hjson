@@ -1,8 +1,10 @@
 type: legs
+outlineColor: 303a45
 speed: 1.1425
+hitSize: 9
 legCount: 4
 flying: false
-health: 265
+health: 295
 range: 150
 weapons: [
   {
@@ -12,6 +14,9 @@ weapons: [
   reload: 15
   ejectEffect: casing1
   bullet: {
+    type: BasicBulletType
+    backColor: 8B73C7
+    frontColor: 8B73C7
     lifetime: 75
     speed: 3
     shootEffect: shootSmall
