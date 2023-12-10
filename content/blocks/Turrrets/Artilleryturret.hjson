@@ -1,0 +1,58 @@
+type: ItemTurret
+health: 1625
+range: 300
+size: 3
+ shootEffect: {
+        type: multiEffect
+        effects: [
+            {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: A865C9
+        colorFrom: A865C9
+        colorTo: 8B73C7
+        }
+            {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: A865C9
+        colorFrom: A865C9
+        colorTo: 8B73C7
+        }
+        ]
+    }
+reload: 58
+inaccuracy: 0
+shootCone: 10
+shootSound: artillery
+ammoTypes: {
+biomass: {
+lifetime: 75
+speed: 4
+backColor: 45368F
+frontColor: 45368F
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 250
+width: 15
+height: 15
+sprite: shell
+}}
+requirements: [
+biomass/55
+graphite/125
+silicon/50
+]
+category: turret
+research: ripple
+researchCostMultiplier: 5
+coolantMultiplier: 1.1
+outlineColor: 303a45

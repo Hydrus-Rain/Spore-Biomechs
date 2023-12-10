@@ -1,0 +1,41 @@
+type: PowerTurret
+health: 1175
+range: 175
+size: 2
+targetAir: true
+targetGround: true
+reload: 25
+shootSound: shootBig
+shootType: {
+    type: BasicBulletType
+    width: 15
+    height: 21
+    lifetime: 50
+    speed: 5
+    damage: 85
+    pierce: false
+    frontColor: 45368F
+    backColor: 45368F
+    fragBullets: 3
+    fragBullet: {
+        type: BasicBulletType
+        speed: 6
+        lifetime: 15
+        damage: 10
+        splashDamage: 45
+        splashDamageRadius: 10
+     }
+}
+consumes: {
+power: 2
+liquid: water/2
+}
+requirements: [
+graphite/400
+Neocells/240
+biomass/145
+] 
+category: turret
+research: sporepod-Spore_garrison
+researchCostMultiplier: 5
+outlineColor: 303a45

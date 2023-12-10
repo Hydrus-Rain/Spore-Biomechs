@@ -1,11 +1,9 @@
-type: flying
-outlineColor: 303a45
+type: legs
+health: 425
+range: 50
 speed: 1.25
 legCount: 4
 hitSize: 9
-flying: false
-health: 425
-range: 50
 weapons: [{
   name: Baneling
   x: 0
@@ -52,4 +50,4 @@ abilities: [
         reload: 150
             }
     ]
-
+outlineColor: 303a45

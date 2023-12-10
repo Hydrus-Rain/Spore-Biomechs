@@ -1,6 +1,6 @@
 type: flying
-outlineColor: 303a45
-health: 625
+health: 425
+range: 75
 speed: 1.75
 drag: 0.1
 engineOffset: 12
@@ -10,7 +10,6 @@ buildSpeed: 2.5
 mineTier: 6
 flying: true
 hitSize: 17
-range: 75
 immunities: [
 		burning
 		]
@@ -69,7 +68,8 @@ weapons: [
         colorTo: 57D993FF
         }
         range: 1
-        amount: 25
+        amount: 10
         reload: 150
             }
     ]
+outlineColor: 303a45

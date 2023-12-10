@@ -1,10 +1,9 @@
 type: legs
-outlineColor: 303a45
+health: 850
 hitSize: 15
 speed: 0.7425
 drag: 0.4
 targetAir: false
-health: 675
 legCount: 4
 legMoveSpace: 0.8
 weapons: [{
@@ -17,8 +16,8 @@ weapons: [{
   ejectEffect: casing2
   bullet: {
     type: ArtilleryBulletType
-    speed: 5
-    damage: 45
+    speed: 2.5
+    damage: 75
     sprite: shell
     hitEffect: blastExplosion
     knockback: 0.8
@@ -52,7 +51,8 @@ weapons: [{
         colorTo: 57D993FF
         }
         range: 1
-        amount: 25
+        amount: 15
         reload: 150
             }
     ]
+outlineColor: 303a45

@@ -1,14 +1,13 @@
 type: flying
-outlineColor: 303a45
+health: 1500
+range: 200
 speed: 1
 hitSize: 18
 targetAir: false
 drag: 0.01
 flying: true
-health: 1500
 engineOffset: 10
 engineSize: 4
-range: 200
 weapons: [{
   name: Guardiangun
   top: false
@@ -57,7 +56,8 @@ abilities: [
         colorTo: 57D993FF
         }
         range: 1
-        amount: 50
+        amount: 45
         reload: 150
             }
     ]
+outlineColor: 303a45

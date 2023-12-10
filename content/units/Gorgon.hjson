@@ -1,10 +1,9 @@
 type: legs
-outlineColor: 303a45
 health: 8000
+range: 150
 speed: 1
 hitSize: 27
 legLength: 25
-range: 150
 immunities: [
 		burning
 		]
@@ -62,7 +61,8 @@ weapons: [
         colorTo: 57D993FF
         }
         range: 1
-        amount: 25
+        amount: 60
         reload: 150
             }
     ]
+outlineColor: 303a45

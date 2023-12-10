@@ -1,15 +1,13 @@
 type: legs
-outlineColor: 303a45
+health: 10000
+range: 100
 hitSize: 44
 speed: 0.75
-outlineColor: 303a45
-health: 10000
 legLength: 30
 legExtension: -15
 legBaseOffset: 10
 landShake: 1
 legCount: 4
-range: 100
 weapons: [
 {
   name: Behomothgun
@@ -89,7 +87,8 @@ abilities: [
         colorTo: 57D993FF
         }
         range: 1
-        amount: 150
+        amount: 75
         reload: 150
             }
     ]
+outlineColor: 303a45

@@ -1,6 +1,6 @@
 type: flying
-outlineColor: 303a45
 health: 175
+range: 75
 hitSize: 10
 speed: 2.45
 drag: 0.09
@@ -9,29 +9,9 @@ engineSize: 4
 mineSpeed: 2
 buildSpeed: 1
 mineTier: 3
-range: 75
 flying: true
 rotateSpeed: 2
 baseRotateSpeed: 0.7
-abilities: [
-        {
-        type: mindustry.entities.abilities.RepairFieldAbility
-        healEffect: {
-        type: WaveEffect
-        lifetime: 30
-        sizeFrom: 0
-        sizeTo": 5
-        strokeFrom: 2
-        strokeTo: 0
-        lightColor: 73FFAEFF
-        colorFrom: 73FFAEFF
-        colorTo: 57D993FF
-        }
-        range: 1
-        amount: 10
-        reload: 125
-            }
-    ]
 weapons: [
 {
   name: Hiverygun
@@ -60,4 +40,23 @@ weapons: [
   }
 }
 ]
-
+abilities: [
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 73FFAEFF
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+        }
+        range: 1
+        amount: 5
+        reload: 125
+            }
+    ]
+outlineColor: 303a45
