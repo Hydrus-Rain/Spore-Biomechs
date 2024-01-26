@@ -2,7 +2,7 @@ name: "jpod"
 displayName: "Spore Biomechs - Java port"
 author: "Water molecules"
 description: "A java port of spore biomethane, will be used for testing stuff with java."
-main: "jpod.Index"
+main: "main.Javapod"
 version: "1.5"
 minGameVersion: "140"
 java: true
