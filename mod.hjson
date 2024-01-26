@@ -1,4 +1,4 @@
-name: "sporepod"
+name: "jpod"
 displayName: "Spore Biomechs - Java port"
 author: "Water molecules"
 description: "A java port of spore biomethane, will be used for testing stuff with java."
