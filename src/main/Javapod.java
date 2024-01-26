@@ -11,14 +11,9 @@ import mindustry.ui.dialogs.*;
 
 
 
-
-public Javapod(){
-    Echo("Is it me or is it working?")
-}
-
 public class Javapod extends Mod{
 
-    public (){
+    public Javapod(){
         Log.info("Loaded Drugs constructor.");
 
         //listen for game load event
