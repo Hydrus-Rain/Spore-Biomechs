@@ -1,8 +1,0 @@
-type: Wall
-health: 8600
-size: 2
-research: thorium-wall
-category: defense
-requirements:[
-    VCA/50
-]
