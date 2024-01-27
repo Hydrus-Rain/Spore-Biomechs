@@ -1,8 +1,8 @@
-name: "jpod"
-displayName: "Spore Biomechs - Java port"
-author: "Water molecules"
-description: "A java port of spore biomethane, will be used for testing stuff with java."
-main: "main.Javapod"
-version: "1.5"
-minGameVersion: "140"
+displayName: "Spore biomethane"
+name: "javapod"
+author: "You"
+main: "example.ExampleJavaMod"
+description: "sus"
+version: 1.0
+minGameVersion: 145
 java: true
